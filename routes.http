@@ -1,0 +1,32 @@
+POST http://localhost:3334/videos 
+Content-type: application/json
+
+{
+  "title": "Video node",
+  "description": "Thalles",
+  "duration": 200000
+}
+
+
+###
+
+GET http://localhost:3334/videos?search=node
+
+###
+
+PUT http://localhost:3334/videos/37ced726-3666-4e76-9a56-469fcbe38ad6
+Content-type: application/json
+
+{
+  "title": "video nodes",
+  "description": "Roberto",
+  "duration": 2000
+}
+
+###
+
+DELETE http://localhost:3334/videos/609a4eb4-c2ff-466b-9d4a-8129f5b7276f
+Content-type: application/json
+
+
+
